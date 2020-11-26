@@ -1,0 +1,65 @@
+.header{
+    background-color: red;
+    z-index: 10;
+}
+
+
+
+.header--flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header--position{
+    width: 100%;
+    position: fixed;
+    min-height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo__img{
+    width: 32px;
+    object-fit: contain;
+    margin-right: 2rem;
+}
+
+.logo__txt{
+    color: @white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.list__items{
+    display: flex;
+    align-items: center;
+}
+
+.list__item{
+    margin: 0 0.5rem;
+}
+
+.list__telephone{
+    color: @white;
+}
+
+.list__img{
+    width: 38px;
+    object-fit: contain;
+    line-height: 0;
+}
+
+.list__button{
+    padding: 0.5rem 2rem;
+    border-radius: .8rem;
+
+    background-color: @white;
+}
+
+.header--noneBlock{
+    height: 70px;
+}
