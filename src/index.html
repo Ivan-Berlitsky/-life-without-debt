@@ -4,25 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.js">
+    </script>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js">
+    </script>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Жизнь без долгов</title>
 </head>
 
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <body>
+    <script src="js/slider.js"></script>
+
     <header class="header header--position">
         <div class="wrapper">
             <div class="header--flex">
                 <div class="logo">
                     <img class="logo__img" src="img/logo.png" alt="logo">
-                    <h3 class="logo__txt">Людям/Бизнесу</h3>
+                    <h3 class="logo__txt">Жизнь без долгов</h3>
                 </div>
                 <div class="list">
                     <ul class="list__items">
                         <li class="list__item"><a class="list__telephone" href="tel:+79500638889"> +7 9500 63 888 9 </a>
                         </li>
-                        <li class="list__item"><a href="#" class="list__link"><img class="list__img" src="img/inst.png"
-                                    alt="instagram"></a></li>
-                        <li class="list__item"><button class="list__button">Запись на консультацию</button></li>
+                        <li class="list__item"><a href="#" class="list__link"><img class="list__img" src="img/inst.png" alt="instagram"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -38,32 +50,48 @@
 
                 <div class="wrapper-2">
 
+                    <div class="info-title">
+
+                        <div class="info-title__containImg">
+                            <img class="info-title__logo" src="img/logo.png" alt="logo">
+                        </div>
+
+                        <div class="info-title__containTxt">
+                            <h1 class="info-title__headingMain">Жизнь <br> без долгов</h1>
+                            <h2 class="info-title__headingAdditional">Проект</h2>
+                        </div>
+
+                    </div>
+
                     <div class="info-one__items">
-                        <div class="info-three__item">
-                            <h2 class="info-three--heading">Наша цель</h2>
+                        <div class="info-one__item info-one--background">
+                            <h2 class="info-one--heading">Наша цель</h2>
                             <p>«Предоставить Качественные
                                 юридические Услуги Помогать
                                 людям Попавшим В Тяжелую
-                                жизненную Ситуацию»</p>
+                                жизненную Ситуацию»
+                            </p>
                         </div>
                         <div class="info-one__item">
                             <form action="">
                                 <h2 class="info-one--heading2">Опишите ситуацию</h2>
+
                                 <textarea class="info-one__textarea" name="info-one__textarea"
-                                    id="info-one__textarea"></textarea>
-                                <!-- <input class="info-one__inputTxt" type="text" maxlength="2000"> -->
+                                    id="info-one__textarea">
+                                </textarea>
+
                                 <h2 class="info-one--heading2">Номер телефона</h2>
                                 <input class="info-one__inputTel" type="text">
                                 <button class="info-one__button">Задать вопрос</button>
-                                <p class="info-one--textColorBlack">Вы можете приехать к нам в
-                                    офис и заключить договор
-                                    о сотрудничестве</p>
+                                <p class="info-one--textColorBlack">Вы можете приехать к нам в  офис и заключить договор о сотрудничестве
+                                </p>
                             </form>
 
                         </div>
-                        <div class="info-one__item">
+                        <div class="info-one__item info-one--background">
                             <h2 class="info-one--heading info-one--textStyle">Наша миссия</h2>
-                            <p class="info-one--textColorBlack">«Привлечь и обучить консультантов и
+                            <p class="info-one--textColorBlack">«Привлечь и обучить 
+                                консультантов и
                                 волонтеров работе с людьми
                                 попавшими в тяжелую жизненную ситуацию.
                                 Предоставить разработанный регламент
@@ -71,7 +99,8 @@
                                 перечень документов для анализа
                                 ситуации. Оказать волонтерам
                                 помощь в сопровождении людей
-                                по решению их проблемы.»</p>
+                                по решению их проблемы.»
+                            </p>
                         </div>
                     </div> <!-- info-one__items -->
                     <div class="info-one__documentImg">
@@ -96,7 +125,8 @@
                             <p class="info-two__txt">Защитим ваши 
                                 интересы в суде
                                 Огромный опыт в 
-                                сложных ситуациях</p>
+                                сложных ситуациях
+                            </p>
                         </div>
 
                         <div class="info-two__item">
@@ -104,11 +134,12 @@
                                 <img class="info-two__img" src="img/icon2.png" alt="icon">
                             </div>
                             
-                            <h5 class="info-two__heading">Банкротство физических лиц</h5>
+                            <h5 class="info-two__heading">Банкротство физических лиц<h5>
                             <p class="info-two__txt">Узнайте, как 
                                 ликвидировать 
                                 кредитные долги 
-                                уже сейчас!</p>
+                                уже сейчас!
+                            </p>
                         </div>
 
                         <div class="info-two__item">
@@ -120,7 +151,8 @@
                             <p class="info-two__txt">Поможем решить
                                 вопросы с управляющей
                                 компанией или
-                                соседями.</p>
+                                соседями.
+                            </p>
                         </div>
 
                         <div class="info-two__item">
@@ -131,7 +163,8 @@
                             <h5 class="info-two__heading">Договоры</h5>
                             <p class="info-two__txt">Составим грамотный
                                 договор, проверим
-                                существующий.</p>
+                                существующий.
+                            </p>
                         </div>
 
                     </div><!-- info-two__items -->
@@ -141,7 +174,7 @@
 
         <div class="info-three">
             <div class="info-three__background">
-                <img class="background--img2" src="img/background2.png" alt="">
+                <img class="background--img2" src="img/background2.png" alt="background">
                 <div class="wrapper-2">
                     
                     <div class="info-three--containerPadding">
@@ -163,7 +196,8 @@
                             <p class="info-three__txt">Все наши специалисты 
                                 имеют опыт юридической практики 
                                 не менее 9 лет.
-                                Статистика побед в суде: 91%</p>
+                                Статистика побед в суде: 91%
+                            </p>
                         </div>
 
                         <div class="info-three__item">
@@ -177,7 +211,8 @@
                                 неразглашении. Ваша частная
                                 информация не покинет пределов нашего офиса.
                                 У вас нет необходимости в трате времени 
-                                на ожидание приема в очередях</p>
+                                на ожидание приема в очередях
+                            </p>
                         </div>
                         <div class="info-three__item">
                             <div class="info-three__containImg">
@@ -190,12 +225,128 @@
                                 сложные проблемы.
                                 Достаточно описать проблему 
                                 и юрист в кратчайшие сроки
-                                поможет с решением вашего вопроса</p>
+                                поможет с решением вашего вопроса
+                            </p>
                         </div>
                     </div><!-- info-three__items -->
                 </div><!-- wrapper-2 -->
             </div><!-- info-three__background -->
         </div><!-- info-three -->
+
+        <div class="info-four">
+            <div class="info-four__background">
+                <img class="background--img2" src="img/background3.png" alt="background">
+                <div class="wrapper-2">
+                    <div class="info-four--containerPadding"><h3 class="info-four__headingMain">Наша команда</h3>
+                    </div>
+                    
+                    <div class="info-four__items">
+                        
+                        <div class="info-four__item">
+                            <div class="info-four__containImg">
+                                <img class="info-four__img" src="img/photo1.png" alt="photo">
+                            </div>
+                            <div class="info-four__containText">
+
+                                <h5 class="info-four__heading">Крамынина Екатерина</h5>
+                                <p class="info-four__txt">Я оказываю качественную 
+                                бесплатную консультацию, 
+                                по поводу долгов по 
+                                кредитам и ЖКХ.
+                                Имею огромный практический 
+                                опыт в таких вопросах,
+                                как снять арест с банковской 
+                                карты или имущества.
+                                </p>
+
+                            </div>
+                            
+                        </div>
+                        <div class="info-four__item">
+                            <div class="info-four__containImg">
+                                <img class="info-four__img" src="img/photo2.png" alt="photo">
+                            </div>
+                            <div class="info-four__containText">
+
+                                <h5 class="info-four__heading">Семейкина Надежда</h5>
+                                <p class="info-four__txt">Менеджер по 
+                                    сопровождению 
+                                    наших любимых 
+                                    клиентов.
+                                </p>
+
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div><!-- info-four__items -->
+                    <h3 class="info-four__headingAdditional">Мы - команда профессионалов, которые работают не ради денег, а ради клиента</h3>
+                </div> <!-- wrapper-2 -->
+            </div> <!-- info-four__background -->
+        </div><!-- info-four -->
+
+        <div class="info-five info-five--background">
+
+            <div class="wrapper-2">
+                <h5 class="sliderTitle">Отзывы наших клиентов</h5>
+                <div class="slider">
+
+                    <div class="slider__item">
+                        <div class="slider__container">
+                            <div class="slider__containImg">
+                                <img class="slider__img" src="img/avatar1.png" alt="avatar">
+                            </div>
+                            <div class="slider__containTxt">
+                                <p class="slider__txt">
+                                    Быстро, кратко, понятно — так ответила на мой запрос Екатерина.
+                                    Думаю и впредь при возникновении проблем и вопросов 
+                                    обращаться в «Жизнь без долгов».
+                                </p>
+                                <h5 class="slider__name">Иванов Алексей</h5>
+                            </div>
+                        </div> 
+                    </div><!-- slider__item -->
+
+                    <div class="slider__item">
+                        <div class="slider__container">
+                            <div class="slider__containImg">
+                                <img class="slider__img" src="img/avatar2.png" alt="avatar">
+                            </div>
+                            <div class="slider__containTxt">
+                                <p class="slider__txt">
+                                    Хочу выразить Вам огромную благодарность за оперативный, 
+                                    профессионально качественный, подробный ответ на мои вопросы и
+                                    доброжелательное отношение! 
+                                    Мои трудности успешно разрешились! Успехов Вам!
+                                </p>
+                                <h5 class="slider__name">Ильин Сергей</h5>
+                            </div>
+                        </div> 
+                    </div><!-- slider__item -->
+
+                    <div class="slider__item">
+                        <div class="slider__container">
+                            <div class="slider__containImg">
+                                <img class="slider__img" src="img/avatar3.png" alt="avatar">
+                            </div>
+                            <div class="slider__containTxt">
+                                <p class="slider__txt">
+                                    Спасибо большое Екатерине за консультацию и грамотное разъяснения. 
+                                    Очень помогла в разрешении вопроса. 
+                                    Процветания и роста вашей компании «Жизнь без долгов». 
+                                    Всем друзьям и знакомым порекомендую ваши услуги.
+                                </p>
+                                <h5 class="slider__name">Залеская Алена</h5>
+                            </div>
+                        </div> 
+                    </div><!-- slider__item -->
+
+                </div><!-- slider -->
+            </div><!-- wrapper-2 -->
+
+        </div><!-- info-five -->
+                
 
     </article>
     
@@ -205,5 +356,7 @@
     </footer>
     </div>
 </body>
+
+
 
 </html>

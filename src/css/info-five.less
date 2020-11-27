@@ -1,0 +1,75 @@
+.info-five--background{
+    background-color:@whiteBackground;
+    padding-top: 1rem;
+}
+
+.sliderTitle{
+    display: inline-block;
+    font-size: 3rem;
+    color: #4F4F4F;
+    margin-left: 22rem;
+}
+
+
+
+.slider__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+
+}
+
+.slider__containImg{
+    width: 200px;
+    margin-right: 4rem;
+}
+
+.slider__img{
+    object-fit: contain;
+}
+
+.slider__containTxt{
+    max-width: 700px;
+
+    color: #4F4F4F;
+}
+
+.slider__txt{
+    font-size: 1.5rem;
+}
+
+.slider__name{
+    text-align: right;
+    font-size: 1.7rem;
+}
+
+.slick-prev::before .slick-arrow::before{
+    content: 12;
+}
+
+.slick-prev, .slick-next{
+    position: absolute;
+    top: 50% ;
+    transform: translate(0, -50%);
+    transition: .5s;
+
+    font-size: 4rem;
+    color: @red;
+}
+
+.slick-prev:focus, .slick-next:focus{
+    color: #4F4F4F;
+}
+
+.slick-prev:hover, .slick-next:hover{
+    font-size: 5rem;
+}
+
+.slick-prev{ 
+    left: -3rem;
+}
+
+.slick-next{
+    right: -3rem;
+}
