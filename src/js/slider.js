@@ -10,6 +10,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 2500,
         mobileFirst: false,
+        accessibility: false
       },
     );
   });

@@ -1,0 +1,39 @@
+
+.info-six{
+    height: @heightScreen2;
+}
+
+.info-six__background{
+    height: 100%;
+    z-index: -10;
+}
+
+.info-six__headingMain{
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    color: @white;
+    font-weight: 100;
+
+    position: relative;
+    top: 20%;
+}
+
+.info-six__items{
+    .row-flex();
+    justify-content: center;
+    align-items: center;
+    z-index: -8;
+    height: 100%;
+}
+
+.info-six__item{
+    .col();
+    .size(2);
+
+    z-index: -8;
+}
+
+.info-six__img{
+    object-fit: contain;
+}
